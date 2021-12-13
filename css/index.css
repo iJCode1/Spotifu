@@ -1,5 +1,7 @@
 @import './icons.css';
 @import './fonts.css';
+@import './body.css';
+@import './link.css';
 :root{
   --primary: #00B050;
   --white: #FFFFFF;
@@ -17,15 +19,4 @@
   --baseFontBold: bold 0.875rem / 1.375rem var(--baseFontFamily);
   --button: bold 0.875rem / 1rem var(--baseFontFamily);
   --smallFont: normal .75em / normal var(--baseFontFamily);
-}
-body{
-  background-color: var(--primary);
-  font-family: var(--baseFontFamily);
-}
-button{
-  color: green;
-  font-size: 3rem;
-}
-button:hover{
-  color: red;
 }
