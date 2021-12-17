@@ -14,7 +14,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
@@ -26,21 +26,42 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="" />
   <meta property="og:image" content="" />
-  <meta property="og:description" 
-  content="Spotifu es un clon de la aplicación web de Spotify" />
+  <meta property="og:description" content="Spotifu es un clon de la aplicación web de Spotify" />
   <title>iJCode - Spotifu</title>
 </head>
 <body class="body">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolorem sint, necessitatibus rem harum id, temporibus ipsam soluta eligendi aliquid deleniti excepturi itaque voluptate accusantium doloremque, culpa consequatur! Labore, placeat?</p>
-  <div class="slider">
-    <div class="slider-progress">
-      <button class="slider-button" aria-label="Progreso de la canción"></button>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolorem sint, necessitatibus rem harum id,
+    temporibus ipsam soluta eligendi aliquid deleniti excepturi itaque voluptate accusantium doloremque, culpa
+    consequatur! Labore, placeat?</p>
+  <div class="playerControls">
+    <div class="playerControls-buttons">
+      <button class="buttonIcon" aria-label="Canción anterior" title="Canción anterior">
+        <i class="icon-prev" aria-hidden="true"></i>
+      </button>
+      <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+        <i class="icon-play" aria-hidden="true"></i>
+      </button>
+      <button class="buttonIcon" aria-label="Canción siguiente" title="Canción siguiente">
+        <i class="icon-next" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="playerPlayback">
+      <span class="playerPlayback-progressTime">01:12</span>
+      <div class="playerPlayback-slider">
+        <div class="slider">
+          <div class="slider-progress">
+            <button class="slider-button" aria-label="Progreso de la canción"></button>
+          </div>
+        </div>
+      </div>
+      <span class="playerPlayback-progressTime">03:25</span>
     </div>
   </div>
   <aside class="sidebar" aria-label="Sidebar">
     <header class="logo">
       <a href="/">
-        <img class="logo-image" src="./assets/images/spotifu-logo.png" width="112" height="32" alt="Logo de la marca Spotifu"></img>
+        <img class="logo-image" src="./assets/images/spotifu-logo.png" width="112" height="32"
+          alt="Logo de la marca Spotifu"></img>
       </a>
     </header>
     <nav class="menu" aria-label="Principal">
@@ -117,11 +138,5 @@
       </ul>
     </nav>
   </aside>
-  <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-  <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
 </body>
 </html>

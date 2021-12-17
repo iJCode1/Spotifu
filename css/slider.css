@@ -3,7 +3,7 @@
   /* border: 1px solid red; */
   block-size: .25rem;
   border-radius: .25rem;
-  inline-size: 200px;
+  /* inline-size: 200px; */
 }
 .slider-progress{
   background-color: var(--white);
