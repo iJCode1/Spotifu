@@ -30,45 +30,6 @@
   <title>iJCode - Spotifu</title>
 </head>
 <body class="body">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolorem sint, necessitatibus rem harum id,
-    temporibus ipsam soluta eligendi aliquid deleniti excepturi itaque voluptate accusantium doloremque, culpa
-    consequatur! Labore, placeat?</p>
-  <div class="playerControls">
-    <div class="playerControls-buttons" aria-label="Controles de reproducción">
-      <button class="buttonIcon" aria-label="Canción anterior" title="Canción anterior">
-        <i class="icon-prev" aria-hidden="true"></i>
-      </button>
-      <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-        <i class="icon-play" aria-hidden="true"></i>
-      </button>
-      <button class="buttonIcon" aria-label="Canción siguiente" title="Canción siguiente">
-        <i class="icon-next" aria-hidden="true"></i>
-      </button>
-    </div>
-    <div class="playerPlayback">
-      <span class="playerPlayback-progressTime">01:12</span>
-      <div class="playerPlayback-slider">
-        <div class="slider">
-          <div class="slider-progress">
-            <button class="slider-button" aria-label="Progreso de la canción"></button>
-          </div>
-        </div>
-      </div>
-      <span class="playerPlayback-progressTime">03:25</span>
-    </div>
-  </div>
-  <div class="playerVolume">
-    <button class="player-control" aria-describedby="volume-icon" aria-label="Silenciar">
-      <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volumen alto"></i>
-    </button>
-    <div class="playerVolume-slider">
-      <div class="slider">
-        <div class="slider-progress">
-          <button class="slider-button" aria-label="Progreso de la canción"></button>
-        </div>
-      </div>
-    </div>
-  </div>
   <aside class="sidebar" aria-label="Sidebar">
     <header class="logo">
       <a href="/">
@@ -150,5 +111,65 @@
       </ul>
     </nav>
   </aside>
+  <div class="player">
+    <div class="player-nowPlaying">
+      <div class="nowPlaying">
+        <div class="nowPlaying-cover">
+          <img src="./assets/images/lets-all-chant.jpg" alt="Imagen de portada de la canción Let´s all chant" title="Imagen de portada de la canción Let´s all chant" width="56" height="56">
+        </div>
+        <div class="nowPlaying-details">
+          <div class="nowPlaying-description">
+            <a href="#" class="nowPlaying-title">Let´s all chant</a>
+            <a href="#" class="nowPlaying-artist">Mr belt & wezol</a>
+          </div>
+          <div class="nowPlaying-actions">
+            <button class="player-control" aria-label="Guardar en tu biblioteca" role="switch" title="Guardar en tu biblioteca">
+              <i class="icon-heart" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="player-playerControls">
+      <div class="playerControls">
+        <div class="playerControls-buttons" aria-label="Controles de reproducción">
+          <button class="buttonIcon" aria-label="Canción anterior" title="Canción anterior">
+            <i class="icon-prev" aria-hidden="true"></i>
+          </button>
+          <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+          <button class="buttonIcon" aria-label="Canción siguiente" title="Canción siguiente">
+            <i class="icon-next" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="playerPlayback">
+          <span class="playerPlayback-progressTime">01:12</span>
+          <div class="playerPlayback-slider">
+            <div class="slider">
+              <div class="slider-progress">
+                <button class="slider-button" aria-label="Progreso de la canción"></button>
+              </div>
+            </div>
+          </div>
+          <span class="playerPlayback-progressTime">03:25</span>
+        </div>
+      </div>
+    </div>
+    <div class="player-playerVolume">
+      <div class="playerVolume">
+        <button class="player-control" aria-describedby="volume-icon" aria-label="Silenciar">
+          <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volumen alto"></i>
+        </button>
+        <div class="playerVolume-slider">
+          <div class="slider">
+            <div class="slider-progress">
+              <button class="slider-button" aria-label="Progreso de la canción"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

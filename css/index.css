@@ -5,10 +5,6 @@
 @import './button-icon.css';
 @import './sidebar.css';
 @import './ellipsis.css';
-@import './slider.css';
-@import './player-controls.css';
-@import './player-playback.css';
-@import './player-volume.css';
 @import './player.css';
 :root{
   --primary: #00B050;
