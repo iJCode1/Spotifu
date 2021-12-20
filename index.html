@@ -34,7 +34,7 @@
     temporibus ipsam soluta eligendi aliquid deleniti excepturi itaque voluptate accusantium doloremque, culpa
     consequatur! Labore, placeat?</p>
   <div class="playerControls">
-    <div class="playerControls-buttons">
+    <div class="playerControls-buttons" aria-label="Controles de reproducción">
       <button class="buttonIcon" aria-label="Canción anterior" title="Canción anterior">
         <i class="icon-prev" aria-hidden="true"></i>
       </button>
@@ -55,6 +55,18 @@
         </div>
       </div>
       <span class="playerPlayback-progressTime">03:25</span>
+    </div>
+  </div>
+  <div class="playerVolume">
+    <button class="player-control" aria-describedby="volume-icon" aria-label="Silenciar">
+      <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volumen alto"></i>
+    </button>
+    <div class="playerVolume-slider">
+      <div class="slider">
+        <div class="slider-progress">
+          <button class="slider-button" aria-label="Progreso de la canción"></button>
+        </div>
+      </div>
     </div>
   </div>
   <aside class="sidebar" aria-label="Sidebar">
