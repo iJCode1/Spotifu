@@ -23,6 +23,8 @@
   overflow: hidden;
 }
 .playlistA-cover img{
+  block-size: auto;
+  inline-size: 100%;
   vertical-align: middle;
 }
 .platlistA-button{
