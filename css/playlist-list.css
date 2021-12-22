@@ -20,9 +20,9 @@
   /* max-inline-size: 2063px; */
   overflow-x: auto;
 }
-.playlistList-container::-webkit-scrollbar{
+/* .playlistList-container::-webkit-scrollbar{
   display: none;
-}
+} */
 .playlistList-container > * {
   flex-shrink: 0;
 }

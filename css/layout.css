@@ -13,6 +13,7 @@
 }
 .layout-sidebar{
   block-size: calc(100vh - var(--bottomSize));
+  background-color: var(--gray60);
   flex-shrink: 0;
   inline-size: var(--sidebarInlineSize);
   min-block-size: var(--minBlockSize);
@@ -28,6 +29,6 @@
   /* inline-size: 100vw; */
   flex: 1;
 }
-.layout-main::-webkit-scrollbar{
+/* .layout-main::-webkit-scrollbar{
   display: none;
-}
+} */
