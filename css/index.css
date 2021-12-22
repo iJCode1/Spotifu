@@ -9,6 +9,7 @@
 @import './page.css';
 @import './layout.css';
 @import './scrollbar.css';
+@import './playlist.css';
 :root{
   font-size: 14px;
   --primary: #00B050;

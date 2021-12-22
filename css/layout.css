@@ -21,6 +21,7 @@
 }
 .layout-main{
   block-size: calc(100vh - var(--bottomSize));
+  flex: 1;
   min-block-size: var(--minBlockSize);
   overflow: auto;
 }
