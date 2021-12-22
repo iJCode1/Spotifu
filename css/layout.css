@@ -1,0 +1,33 @@
+:root{
+  --sidebarInlineSize: 15rem;
+  --minBlockSize: 37.5rem;
+  --minInlineSize: 48rem;
+  --bottomSize: 5.6rem;
+}
+.layout{
+  /* box-shadow: inset 0 0 0 5px red; */
+  min-inline-size: var(--minInlineSize);
+}
+.layout-block{
+  display: flex; 
+}
+.layout-sidebar{
+  block-size: calc(100vh - var(--bottomSize));
+  flex-shrink: 0;
+  inline-size: var(--sidebarInlineSize);
+  min-block-size: var(--minBlockSize);
+  overflow: auto;
+}
+.layout-main{
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSize);
+  overflow: auto;
+}
+.layout-bottom{
+  block-size: var(--bottomSize);
+  /* inline-size: 100vw; */
+  flex: 1;
+}
+.layout-main::-webkit-scrollbar{
+  display: none;
+}
