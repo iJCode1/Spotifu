@@ -1,3 +1,5 @@
+@import './playlist-a.css';
+@import './playlist-b.css';
 .playlistList-top{
   align-items: center;
   display: flex;
@@ -17,6 +19,9 @@
   gap: 1rem;
   /* max-inline-size: 2063px; */
   overflow-x: auto;
+}
+.playlistList-container::-webkit-scrollbar{
+  display: none;
 }
 .playlistList-container > * {
   flex-shrink: 0;
